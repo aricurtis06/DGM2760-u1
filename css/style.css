@@ -96,7 +96,14 @@ li{
 footer{
     color: rgb(235, 215, 196);
     background-color: rgb(53, 97, 55);
+<<<<<<< HEAD
     text-indent: 8px;
     padding: .3px 0px .3px 0px;
     margin: 0px;
 }
+=======
+    text-indent: 20px;
+    padding: .3px 0px .3px 0px;
+    margin: 0px;
+}
+>>>>>>> 666b632b9c5d81c56217a97ad82d2902df7783d0
