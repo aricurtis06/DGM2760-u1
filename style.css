@@ -1,0 +1,102 @@
+/*body h1, h2, h3, h4, h5, h6, ul, li {
+    margin: 0;
+}*/
+
+header{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url("../images/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400;
+}
+
+#company{
+    font-family: 'Times New Roman', Times, serif;
+    /*font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
+    font-style: oblique;
+    margin: 0;
+    color: rgb(67, 136, 70);
+    text-shadow: 4px -1px rgb(34, 22, 16) ;
+    font-size: 80;
+}
+
+#slogan{
+    font-family: Impact,'Times New Roman', Times, serif;
+    font-size: 28;
+    color: rgb(253, 245, 230);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(12, 5, 5);
+}
+
+#pageName{
+    max-width: 1200px;
+    font-size: 40;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    text-shadow: 3px -1px rgb(0, 0, 0);
+    background-color: rgb(54, 47, 39, 0.8);
+    color: rgb(228, 215, 190); 
+    margin: 0px auto auto auto;
+    padding: 5px 0px 5px 0px;
+}
+
+#greeting{
+    text-align: center;
+}
+
+#date{
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#bolddate{
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(117, 38, 38)
+    
+}
+
+#greeting{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+body{
+    background-image: linear-gradient(  rgb(53, 97, 55), rgb(168, 162, 151) 70% 100%);
+
+}
+
+/*ul{
+    text-indent: 20px;
+    list-style-image: url("../images/Untitled_Artwork\ 2.png");
+}*/
+
+#learn{
+    margin-top: 60px;
+    margin-left: 3px;
+}
+
+ul{
+    list-style: none;
+    background:url("../images/Untitled_Artwork\ 2.png") repeat-y;
+    padding: .5px 1px 0 9px;
+    margin: 0 0 10px 0;
+}
+
+li{
+    margin: 10px 0 12px 30px;
+    color: rgb(40, 49, 41);
+    
+    
+}
+
+footer{
+    color: rgb(235, 215, 196);
+    background-color: rgb(53, 97, 55);
+    text-indent: 20px;
+    padding: .3px 0px .3px 0px;
+    margin: 0px;
+}
