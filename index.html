@@ -1,0 +1,55 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01- Joe's Bed and Breakfast</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />  
+</head>
+<body>
+    <header>
+        <h1 id="company">
+        </h1>
+        <h2 id="slogan"> 
+        </h2>
+    </header>
+    <main>
+        <h1 id="pageName">
+            Need some caffine?
+        </h1>
+       
+        <h2 id= "date">
+            Today is
+            <div id="bolddate">
+            <script>
+                
+                let thedate = new Date()
+                document.write(thedate.toLocaleDateString())
+            
+            </script>
+            </div>
+        
+            </h2>
+
+            <p id="greeting"></p>
+        
+
+        <h2 id="learn">What I learned:</h2>
+        <ul class="objectives">
+        <li>Build a simple webpage with a header, main, and footer.</li>
+        <li>Find and correctly resize an image to be loaded into the header using CSS</li>
+        <li>Use Javascript to insert text into an HTML element</li>
+        <li>Use Javascript to insert the current date into a web page</li>
+        <li>Style a page using CSS</li>
+        <li>Push code to a GitHub repository</li>
+        <li>Deploy a webpage using Netlify</li>
+    </ul>
+
+    </main>
+    
+    <footer>
+        <p>Assignment for DGM 2760 by Ari Curtis</p>
+    </footer>
+    <script type="text/Javascript" src="js/main.js"></script>
+</body>
+</html>
